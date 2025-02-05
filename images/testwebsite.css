@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'HyliaSerifBeta';
+    src: url(HyliaSerifBeta-Regular.otf) format(opentype);
+}
+
+p {
+    font-family: 'HyliaSerifBeta';
+    font-size: 30px
+}
