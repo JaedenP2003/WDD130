@@ -1,0 +1,75 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #a3d9ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-bottom: 5px solid #ff9900;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    text-shadow: 3px 3px 0px #ff6600;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #ff6600;
+    padding: 15px;
+    border-bottom: 5px solid #cc4400;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #ff9900;
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    background-color: #ffcc00;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 3px dashed #ff9900;
+}
+
+h2 {
+    color: #ff6600;
+    text-shadow: 2px 2px 0px #ffcc00;
+}
+
+/* Footer */
+footer {
+    background-color: #ffcc00;
+    padding: 10px;
+    border-top: 5px solid #ff9900;
+    font-weight: bold;
+}
+
+/* Fun animation for hover */
+section:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}

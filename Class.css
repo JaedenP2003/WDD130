@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Triforce+Typograph&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #001f3f;
+    color: #f1c232;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: #f1c232;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Triforce Typograph', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Triforce Typograph', sans-serif;
+    color: #f1c232;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffdd44;
+    font-family: 'Triforce Typograph', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #004d4d;
+    color: #ffdd44;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+footer {
+    background-color: #003366;
+    color: #f1c232;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
