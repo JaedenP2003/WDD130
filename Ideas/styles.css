@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Triforce+Typograph&display=swap');
 @font-face {
-    font-family: 'HyliaSerifBeta';
+    font-family: HyliaSerifBeta;
     src: url(HyliaSerifBeta-Regular.otf) format(opentype);
+}
+@font-face {
+    font-family: TheWildBreathOfZelda;
+    src: url(The-wild-breath-of-zelda.otf) format(opentype);
 }
 
 body {
@@ -18,12 +22,12 @@ header {
     color: #f1c232;
     padding: 20px 0;
     text-align: center;
-    font-family: 'HyliaSerifBeta', sans-serif;
+    font-family: HyliaSerifBeta, sans-serif;
 }
 
 h1 {
     margin: 0;
-    font-family: 'HyliaSerifBeta', sans-serif;
+    font-family: HyliaSerifBeta, sans-serif;
     color: #f1c232;
 }
 
@@ -37,7 +41,7 @@ section {
 
 h2 {
     color: #ffdd44;
-    font-family: 'HyliaSerifBeta', sans-serif;
+    font-family: TheWildBreathOfZelda, sans-serif;
 }
 
 ul {
