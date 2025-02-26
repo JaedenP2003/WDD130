@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Playwrite+IN&display=swap');
 
-#content {
+div {
     max-width: 1600px;
+}
+#content {
     margin: 0 auto;
 }
 nav a {
@@ -25,6 +27,7 @@ main section {
     background-color: #c6dec6;
     grid-column: 1/11;
     grid-row: 4/9;
+    margin-bottom: 50px;
 }
 body {
     background-color: #fcfbfb;
@@ -106,6 +109,8 @@ footer a:hover {
 }
 #hero-img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -165,6 +170,9 @@ nav {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 #hero-msg {
     grid-column: 2/3;
