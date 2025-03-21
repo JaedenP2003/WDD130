@@ -36,8 +36,13 @@ nav a {
     color: #cfc926;
     text-decoration: none;
     padding: 35px;
+    font-size: 1.75em;
+    text-shadow: black 2px 2px 2px;
 }
-
+nav a:hover {
+    background-color: #275624; 
+    color: black;
+}
 main section {
     text-align: center;
 }
@@ -98,6 +103,7 @@ img {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: rgb(235, 231, 23);
+    text-shadow: black 2px 2px 2px;
 }
 .home-title {
     color: #cfc926;
